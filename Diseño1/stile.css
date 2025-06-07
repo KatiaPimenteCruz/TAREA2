@@ -19,7 +19,7 @@ body {
 }
 
 .logo1 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
 }
@@ -27,7 +27,7 @@ body {
 .nav-links {
     display: flex;
     gap: 20px;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .nav-links div {
@@ -46,13 +46,13 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.start-btn:hover {
+.start-btr {
     background-color: #1aa3d4;
 }
 
 .main-section {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     padding: 60px;
 }
@@ -62,13 +62,13 @@ body {
 }
 
 .text-section h1 {
-    font-size: 48px;
+    font-size: 61px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .text-section p {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 30px;
     color: #e0e0e0;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .image-section img {
-    width: 500px;
+    width: 900px;
     max-width: 100%;
 }
 
