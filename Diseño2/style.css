@@ -1,0 +1,35 @@
+
+.highlight {
+  color: #800040;
+}
+
+.bg-banner {
+  background-color: #800040;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.new-badge {
+  background-color: #f8d7da;
+  color: #842029;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con button{
+    border-radius: 50%;
+    color: rgb(129, 61, 61);
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}

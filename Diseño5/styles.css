@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-overlay {
+  height: 100vh;
+  background: linear-gradient(rgba(244, 246, 248, 0.041), rgba(186, 196, 206, 0.6)),
+              url('hero-bg.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  color: white;
+}
+.navbar .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #0d6efd;
+}
+
+.shadow {
+  transition: transform 0.3s ease;
+}
+.shadow:hover {
+  transform: translateY(-5px);
+}
+
